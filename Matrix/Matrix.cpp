@@ -32,7 +32,7 @@ int main()
 			cin >> matrix[temp_row][temp_column];
 		}
 	}
-	/*for (int temp_row = 0; temp_row < i; temp_row++) // выводим матрицу в консоль
+	for (int temp_row = 0; temp_row < i; temp_row++) // выводим матрицу в консоль
 	{
 		for (int temp_column = 0; temp_column < j; temp_column++)
 		{
@@ -41,8 +41,14 @@ int main()
 				cout << endl;
 		}
 	}
+	
+	/*int s; // s - предполагаемая нулевая сумма элементов какого-то столбца
+	for (int temp_row = 0; temp_row < i; temp_row++)
+	{
+		for (int temp_column = 0; temp_column < j; temp_column++)
+		{
+			cout << "matrix[" << temp_row << "][" << temp_column << "] = ";
+			cin >> matrix[temp_row][temp_column];
 	*/
-
-
 	return 0;
 }
